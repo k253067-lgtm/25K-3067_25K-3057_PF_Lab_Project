@@ -53,7 +53,6 @@ void sorthand(char hand[][3]) // shift all the x placeholders in hand to right h
     }
 }
 
-/* CHANGE: drawcard now checks bounds before copying to avoid UB when deck/hand exhausted */
 void drawcard(char hand[][3], char deck[][3])
 {
 
