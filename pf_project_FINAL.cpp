@@ -639,14 +639,6 @@ int main()
     char deck[45][3], userhand[42][3], cpuhand[42][3], discardtop[3]; // discardpile[45][3];//<-this one shud b stack;//var is enough
     srand(time(0));                                                   // makes sure ke jab program run ho truly random ho warna every runtime will make same choice of number
 
-    /*for (int i = 0; i < 45; ++i)//initialize deck?? u did this already in inithands wala func
-        strcpy(deck[i], "x");
-    for (int i = 0; i < 42; ++i)
-    {
-        strcpy(userhand[i], "x");
-        strcpy(cpuhand[i], "x");
-    }*/
-
     // make loop for 1.play 2.help (tell abt wildcard etc) 3.exit
     int choice = 0;
     welcome();
